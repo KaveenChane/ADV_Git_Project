@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT_DIR="/home/kaveen/Documents/ESILV_A4/Final_project/ADV_Git_Project"
+PROJECT_DIR= "/home/ec2-user/ADV_Git_Project/"
 
 FILE="$PROJECT_DIR/data.csv"
 
