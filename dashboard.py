@@ -6,7 +6,8 @@ import plotly.graph_objs as go
 from datetime import datetime
 import os
 
-path = "/home/kaveen/Documents/ESILV_A4/Final_project/ADV_Git_Project/"
+path = "/home/ec2-user/ADV_Git_Project/"
+
 
 app = dash.Dash(__name__)
 app.title = "BTC Dashboard"

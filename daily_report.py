@@ -3,7 +3,9 @@ from datetime import datetime
 import os
 
 
-path = "/home/kaveen/Documents/ESILV_A4/Final_project/ADV_Git_Project/"
+#path = "/home/kaveen/Documents/ESILV_A4/Final_project/ADV_Git_Project/"
+path = "/home/ec2-user/ADV_Git_Project/"
+
 try:
     df = pd.read_csv(f"{path}data.csv")
     df['timestamp'] = pd.to_datetime(df['timestamp'])
