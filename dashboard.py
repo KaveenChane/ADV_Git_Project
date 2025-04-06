@@ -17,7 +17,11 @@ text_color = "#f5f5f5"
 accent_color = "#00ffcc"
 
 app.layout = html.Div([
+<<<<<<< HEAD
     html.H1("Dashboard Bitcoin(ABC Bourse)", style={
+=======
+    html.H1("Dashboard Bitcoin (ABC Bourse)", style={
+>>>>>>> 6c43c2c0d1c32f1efe9640a468bc7892f46abce7
         "textAlign": "center",
         "color": accent_color,
         "fontFamily": "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
@@ -106,7 +110,11 @@ def update_graphs(n):
             marker_color='dodgerblue'
         ))
         fig_diff.update_layout(
+<<<<<<< HEAD
             title=" Variation de prix",
+=======
+            title="Variation de prix",
+>>>>>>> 6c43c2c0d1c32f1efe9640a468bc7892f46abce7
             xaxis_title='Heure',
             yaxis_title='Différence (€)',
             template='plotly_dark'

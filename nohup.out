@@ -1,0 +1,41 @@
+Dash is running on http://0.0.0.0:8050/
+
+ * Serving Flask app 'dashboard'
+ * Debug mode: on
+88.166.231.10 - - [29/Mar/2025 08:50:50] code 400, message Bad request version ('\x02h2\x08http/1.1\x003\x00+\x00)')
+88.166.231.10 - - [29/Mar/2025 08:50:50] code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+88.166.231.10 - - [29/Mar/2025 10:14:43] code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Í**\x00\x00\x00')
+88.166.231.10 - - [29/Mar/2025 10:14:43] code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00\x00')
+88.166.231.10 - - [29/Mar/2025 22:03:27] code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00')
+88.166.231.10 - - [29/Mar/2025 22:03:27] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00-\x00\x02\x01\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00Di\x00\x05\x00\x03\x02h2\x00#\x00\x00\x00+\x00\x07\x06ªª\x03\x04\x03\x03ÿ\x01\x00\x01\x00\x00')
+88.166.231.10 - - [29/Mar/2025 23:35:39] code 400, message Bad request version ('\x86U©²\x9faË\x04\x13U®\x0f\x03ÑÜ\x97ç\x05ÒÇ±ç£{ì:\x95a¸N\x80D\x00')
+88.166.231.10 - - [29/Mar/2025 23:35:39] code 400, message Bad request version ('ô\x9bjr\x9d3}\x92\x16Á}£')
+88.166.231.10 - - [30/Mar/2025 10:00:58] code 400, message Bad request version ('\x12\x00')
+88.166.231.10 - - [30/Mar/2025 10:00:58] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+88.166.231.10 - - [30/Mar/2025 23:51:21] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02:\x01\x00\x026\x03\x03díò\\ÿL\x9f\x08×O\x1aÅì\x92Y³Ü\x8d^ìÉ\x036)»uý¨ÕtF0')
+88.166.231.10 - - [30/Mar/2025 23:51:21] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01ÿ\x01\x00\x01\x00\x00\x17\x00\x00\x00')
+88.166.231.10 - - [31/Mar/2025 14:15:51] code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93zz\x00\x00\x00')
+88.166.231.10 - - [31/Mar/2025 14:15:51] code 400, message Bad request version ('l¥\x8f_¯¶SÑ8Hr5\x00-\x00\x02\x01\x01\x00')
+88.166.231.10 - - [31/Mar/2025 14:15:51] code 400, message Bad request version ('Hª\x83³ÒoÞ7½[#\x1bý\x80j\x88ö>Mf\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+91.196.152.67 - - [01/Apr/2025 21:36:09] code 400, message Bad request version ('À#À¬À®À+À')
+91.196.152.67 - - [01/Apr/2025 21:37:06] code 400, message Bad request version ('À#À¬À®À+À')
+91.196.152.81 - - [01/Apr/2025 21:43:37] code 400, message Bad request version ('À#À¬À®À+À')
+91.196.152.79 - - [01/Apr/2025 21:44:57] code 400, message Bad request version ('À#À¬À®À+À')
+18.118.187.3 - - [01/Apr/2025 22:46:28] code 400, message Bad request version ('À\x14À')
+18.118.187.3 - - [01/Apr/2025 22:50:32] code 400, message Bad request syntax ('SSH-2.0-Go')
+18.118.187.3 - - [01/Apr/2025 22:50:39] code 400, message Bad request version ('À\x14À')
+165.22.139.147 - - [02/Apr/2025 23:29:38] code 400, message Bad request syntax ('JRMI\x00\x02K')
+170.187.203.25 - - [03/Apr/2025 00:03:18] code 400, message Bad request syntax ('JRMI\x00\x02K')
+97.107.131.140 - - [03/Apr/2025 00:08:35] code 400, message Bad request syntax ('JRMI\x00\x02K')
+176.113.115.183 - - [04/Apr/2025 18:34:56] code 400, message Bad request syntax ('\x05\x02\x00\x02')
+176.113.115.183 - - [04/Apr/2025 18:34:56] code 400, message Bad request syntax ('\x05\x01\x00')
+176.113.115.183 - - [04/Apr/2025 18:34:56] code 400, message Bad request syntax ('\x04\x01\x01»@é£h\x00')
+176.113.115.183 - - [04/Apr/2025 18:34:56] code 400, message Bad request syntax ('\x04\x01\x01»@é£gadm:12345\x00')
+176.113.115.183 - - [06/Apr/2025 06:40:44] code 400, message Bad request syntax ('\x05\x01\x00')
+176.113.115.183 - - [06/Apr/2025 06:40:44] code 400, message Bad request syntax ('\x04\x01\x01»@é£c\x00')
+176.113.115.183 - - [06/Apr/2025 06:40:45] code 400, message Bad request syntax ('\x04\x01\x01»@é£cadm:12345\x00')
+176.113.115.183 - - [06/Apr/2025 06:40:45] code 400, message Bad request syntax ('\x05\x02\x00\x02')
+  File "/home/ec2-user/ADV_Git_Project/dashboard.py", line 20
+    <<<<<<< HEAD
+    ^
+SyntaxError: invalid syntax
