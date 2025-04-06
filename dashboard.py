@@ -12,13 +12,12 @@ path = "/home/ec2-user/ADV_Git_Project/"
 app = dash.Dash(__name__)
 app.title = "BTC Dashboard"
 
-# 💹 STYLE FINANCE / CRYPTO
 background_color = "#0d1117"
 text_color = "#f5f5f5"
 accent_color = "#00ffcc"
 
 app.layout = html.Div([
-    html.H1("📊 Dashboard Bitcoin (ABC Bourse)", style={
+    html.H1("Dashboard Bitcoin (ABC Bourse)", style={
         "textAlign": "center",
         "color": accent_color,
         "fontFamily": "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
@@ -50,7 +49,7 @@ app.layout = html.Div([
 
     dcc.Interval(
         id='interval-component',
-        interval=10 * 1000,
+        interval=150 * 1000,
         n_intervals=0
     )
 ], style={"backgroundColor": background_color, "minHeight": "100vh"})
@@ -76,7 +75,7 @@ def update_graphs(n):
             line=dict(color='lime')
         ))
         fig_price.update_layout(
-            title="📈 Prix du Bitcoin",
+            title="Prix du Bitcoin",
             xaxis_title='Heure',
             yaxis_title='Prix (€)',
             template='plotly_dark'
@@ -92,7 +91,7 @@ def update_graphs(n):
             line=dict(color='orange')
         ))
         fig_vol.update_layout(
-            title="📊 Volatilité (rolling std %)",
+            title="Volatilité (rolling std %)",
             xaxis_title='Heure',
             yaxis_title='Volatilité (%)',
             template='plotly_dark'
@@ -107,7 +106,7 @@ def update_graphs(n):
             marker_color='dodgerblue'
         ))
         fig_diff.update_layout(
-            title="📉 Variation de prix",
+            title="Variation de prix",
             xaxis_title='Heure',
             yaxis_title='Différence (€)',
             template='plotly_dark'
@@ -133,7 +132,7 @@ def update_daily_report(n):
             report = pd.read_csv(f"{path}daily_report.csv")
             latest = report.iloc[-1]
             return html.Div([
-                html.H3("🧾 Rapport quotidien (20h00)", style={"color": accent_color, "textAlign": "center"}),
+                html.H3("Rapport quotidien (20h00)", style={"color": accent_color, "textAlign": "center"}),
                 html.Div([
                     html.Div([
                         html.H4("Ouverture"),
